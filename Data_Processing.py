@@ -16,7 +16,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv('DataM2.csv',  on_bad_lines='skip')
+df = pd.read_csv('Data_Scrap_Tokopedia.csv',  on_bad_lines='skip')
 print(df)
 
 df[df.duplicated(keep=False)]
